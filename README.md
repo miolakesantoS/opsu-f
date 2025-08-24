@@ -13,6 +13,7 @@ Download the Source Code using Git Bash.
 ```bash
 git clone https://github.com/miolakesantoS/opsu-f.git
 cd opsu-f
+mvn package
 ```
 
 ### Java Setup
@@ -23,12 +24,12 @@ opsu-f. The download page is located [here](https://www.java.com/en/download/).
 opsu-f requires "Beatmaps" to work. you can download it on the in-game
 download page.
 
-If osu! is installed, opsu! will attempt to read beatmaps from the osu!
+If osu! is installed, opsu-f will attempt to read beatmaps from the osu!
 installation location.  The beatmap directory can also be changed by setting
 the "BeatmapDirectory" value in the generated configuration file.
 
 ### First Run
-opsu! will parse all beatmaps when launched, which can take a while for the
+opsu-f will parse all beatmaps when launched, which can take a while for the
 first time.  If no beatmaps are found, the game will prompt you to download some
 to get started.
 
@@ -61,10 +62,6 @@ The following files and folders will be created by opsu! as needed:
 * `Natives/`: The native libraries directory.
 * `Temp/`: The temporary files directory.  Deleted when opsu! exits.
 
-## Building
-opsu! is distributed as both a [Maven](https://maven.apache.org/) and
-[Gradle](https://gradle.org/) project.
-
 ### Maven
 Maven builds are built to the `target` directory.
 * To run the project, execute the Maven goal `compile`.
@@ -87,14 +84,18 @@ Gradle builds are built to the `build` directory.
   * Setting the "excludeFFmpeg" property (`-PexcludeFFmpeg`) will exclude
     FFmpeg shared libraries from the jar.
 
-## Contributing
+## Contributing (opsu!)
 See the [contributing guidelines](CONTRIBUTING.md).
 
-## Credits
-This software was created by Jeffrey Han
+## Credits (opsu!)
+opsu! was created by Jeffrey Han
 ([@itdelatrisu](https://github.com/itdelatrisu/)).  All game concepts and
 designs are based on work by [osu!](https://osu.ppy.sh/) developer Dean Herbert
 ([@ppy](https://github.com/ppy)).  Other credits can be found [here](CREDITS.md).
+
+## Credits (opsu-f)
+opsu-f is a fork created by
+([@miolakesanto](https://github.com/miolakesantoS)) changing the skin, sounds and more.
 
 ## License
 **This software is licensed under GNU GPL version 3.**
