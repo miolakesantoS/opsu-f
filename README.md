@@ -11,7 +11,8 @@ First, you need to Compile the game. To do this,
 Download the Source Code using Git Bash.
 
 ```bash
-git clone https://miolakesantoS/
+git clone https://github.com/miolakesantoS/opsu-f.git
+cd opsu-f
 ```
 
 ### Java Setup
