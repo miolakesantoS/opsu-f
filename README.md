@@ -1,27 +1,26 @@
-# [opsu!](https://itdelatrisu.github.io/opsu/)
-**opsu!** is an unofficial open-source client for the rhythm game
+# [opsu-f](https://github.com/miolakesantoS/opsu-f/)
+**opsu-f** is an opsu! fork with a re-design look. [**opsu!**](https://itdelatrisu.github.io/opsu) was made by itdelatrisu for
 [osu!](https://osu.ppy.sh/), written in Java using
 [Slick2D](http://slick.ninjacave.com/) and  [LWJGL](http://lwjgl.org/)
 (wrappers around OpenGL and OpenAL).
 
-opsu! runs on Windows, OS X, and Linux.
-A [libGDX port](https://github.com/fluddokt/opsu) also supports Android devices.
+(opsu-f Only works on **Windows**)
 
 ## Getting Started
-Get a copy of opsu! from the [releases](https://github.com/itdelatrisu/opsu/releases)
-page.  APK releases can be found [here](https://github.com/fluddokt/opsu/releases).
+First, you need to Compile the game. To do this,
+Download the Source Code using Git Bash.
+
+```bash
+git clone https://miolakesantoS/
+```
 
 ### Java Setup
 The Java Runtime Environment (JRE) 7 or higher must be installed in order to run
-opsu!. The download page is located [here](https://www.java.com/en/download/).
+opsu-f. The download page is located [here](https://www.java.com/en/download/).
 
 ### Beatmaps
-opsu! requires "beatmaps" to run, which contain the songs and gameplay data.
-These can be downloaded directly through opsu! in the downloads menu, or
-manually from the [osu! website](https://osu.ppy.sh/p/beatmaplist) (requires
-registration) and mirror sites like [Bloodcat](http://bloodcat.com/osu/).
-Place any manually downloaded beatmaps (in .osz format) in the `Import/`
-directory for opsu! to unpack them automatically.
+opsu-f requires "Beatmaps" to work. you can download it on the in-game
+download page.
 
 If osu! is installed, opsu! will attempt to read beatmaps from the osu!
 installation location.  The beatmap directory can also be changed by setting
